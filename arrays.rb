@@ -15,3 +15,11 @@ salaries.push("696.69")
 awesomenesses.unshift(true)
 # The pop method permanently changes the array it is called on.
 # It adds on the argument to the beginning of the array and returns the entire array.
+
+salaries[0]
+#This will return the first element in the array which is 325.13
+
+friends[6]
+# This will return nil because there is no element at position 6, although
+# it is tempting to think that "Alaina" would be the 6th element. "Alaina" is
+# at index position 5 because we start counting at 0.
