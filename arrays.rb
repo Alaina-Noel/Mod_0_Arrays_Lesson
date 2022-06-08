@@ -23,3 +23,7 @@ friends[6]
 # This will return nil because there is no element at position 6, although
 # it is tempting to think that "Alaina" would be the 6th element. "Alaina" is
 # at index position 5 because we start counting at 0.
+
+friends.find_index("Allie")
+#This method called find_index recieves an input of the item you are looking for
+# and tells you at what index position that item is located.
